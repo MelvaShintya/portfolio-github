@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+#container {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 390px;
+    padding: 15px;
+}
+
+.unit {
+position: relative;
+   top: -30px;
+}
+
+.select-label {
+    position: relative;
+    top: -30px;
+
+}
+
+.select-input {
+    position: relative;
+        top: -30px;
+}
+
+.satuan-input {
+    position: relative;
+    top: -30px;
+}
+
+.satuan-span {
+    position: relative;
+        top: -30px;
+}
+
+
+.unit1 {
+position: relative;
+top: -30px;
+
+}
+.satuan1-input {
+    position: relative;
+    top: -30px;
+}
+
+.satuan1-span {
+    position: relative;
+    top: -30px;
+
+}
+
+.btn {
+    position: relative;
+}
+
+.garis-0 {
+position: relative;
+top: 0px;
+left: 100px;
+width: 1190px;
+}
+
+.garis {
+position: relative;
+top: 0px;
+left: 160px;
+width: 1130px;
+}
+
+
+.surat{
+    position: relative;
+    top: -30px;
+    font-weight: 500;
+    left: 0px;
+}
+
+.bahan {
+    position: relative;
+    font-weight: 500;
+    top: -30px;
+    left: 0px;
+}
+
+.jenis-input {
+   position: relative;
+        top: -30px;
+}
+
+.jenis-label {
+   position: relative;
+        top: -30px;
+}

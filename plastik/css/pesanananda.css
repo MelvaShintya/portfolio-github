@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+#container {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    padding: 15px;
+}
+
+.select-label {
+    position: relative;
+}
+
+.select-input {
+    position: relative;
+}
+
+.satuan-input {
+    position: relative;
+}
+
+.satuan-span {
+    position: relative;
+}
+
+
+.btn {
+    top: 100px;
+    position: relative;
+
+}

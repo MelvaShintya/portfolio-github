@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Order</title>
+    <link rel="stylesheet" href="../css/order.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        body {
+            background-color: #f5f6fa;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo-details">
+            <div class="profile-details">
+                <img src="../image/">
+                <span class="admin_name">@
+                    Chelsea
+                </span>
+            </div>
+        </div>
+        <ul class="nav-list">
+            <li>
+                <a href="dashboard.html">
+                    <i class='bx bx-grid-alt'></i>
+                    <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li>
+                <a href="profile.html">
+                    <i class="uil uil-user"></i>
+                    <span class="links_name">Profile</span>
+                </a>
+                <span class="tooltip">Profile</span>
+            </li>
+            <li>
+                <a href="order.html">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links_name">Order</span>
+                </a>
+                <span class="tooltip">Order</span>
+            </li>
+            <li>
+                <a href="sales-order.html">
+                    <i class='bx bx-cart-alt'></i>
+                    <span class="links_name">Sales Order</span>
+                </a>
+                <span class="tooltip">Sales Order</span>
+            </li>
+            <!-- <hr> -->
+            <li class="keluar">
+                <a href="../index.html">
+                    <i class='bx bx-log-out-circle'></i>
+                    <span class="links_name">Log Out @
+                        Chelsea
+                    </span>
+                </a>
+                <span class="tooltip">Log Out @
+                    Chelsea
+                </span>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <form action="" method="post">
+                <i class='bx bx-search text-muted'></i>
+                <input class="search form-control" type="search" placeholder="Search for Products" name="search"
+                    id="search">
+            </form>
+        </div>
+        <div class="profile-details">
+            <img src="../image/">
+            <span class="admin_name">@
+                Nadia
+            </span>
+        </div>
+    </nav>
+
+    <div id="o" class="container">
+        <table id="table" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Customer's Name</th>
+                    <th scope="col">Customer's Order</th>
+                    <th scope="col">Consent</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">
+                        1
+                    </th>
+                    <td>
+                        1 Juni 2006
+                    </td>
+                    <td>
+                        Chelsea
+                    </td>
+                    <td>
+                        Plastic PP
+                    </td>
+
+                    <td><button type="button" class="btn btn-success" disabled><i class="uil uil-check"></i></button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="container-1">
+        <div class="links">
+            <a class="link" href=""><i class="fa-solid fa-angle-left"></i></a>
+
+
+
+            <a class="link" href="" style="background-color: #1c1f23; color:white;">1</a>
+            <a class="link" href="">2</a>
+
+
+            <a class="link" href=""><i class="fa-solid fa-angle-right"></i></a>
+        </div>
+    </div>
+</body>
+
+</html>

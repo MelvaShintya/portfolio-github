@@ -1,0 +1,17 @@
+#container {
+  background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 390px;
+  width: 1000px;
+  height: 560px;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #c5c5c5;
+}
+
+#btn {
+  position: absolute;
+  right: 25px;
+  bottom: 30px;
+  border-radius: 20px;
+}

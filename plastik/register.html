@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Register</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 id="logo" class="logo">
+            Car Rental.
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Login</a></li>
+                <li><a href="sistem/dashboard.html">Dashboard</a></li>
+                <li><a href="../index.html">Back to Portfolio</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <h3 class="status">Get's started</h3>
+    <div class="peringatan form-text">Fill in your personal details correctly!</div>
+    <div class="status-2 form-text">Do you already have an account?<a href="index.html"> Login</a> here!</div>
+    <div class="container">
+        <form action="" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="col">
+                    <label class="nama-label form-label">Full Name</label>
+                    <input type="text" class="nama-input form-control" placeholder="Full Name" name="nama">
+                </div>
+                <div class="col">
+                    <label class="username-label form-label">Username</label>
+                    <input type="text" class="username-input form-control" placeholder="Username" name="username">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label class="email-label form-label">E-mail</label>
+                    <input type="email" class="email-input form-control" placeholder="E-mail" name="email">
+                </div>
+                <div class="col">
+                    <label class="nomor-label form-label">Mobile Phone</label>
+                    <input type="text" class="nomor-input form-control" placeholder="Mobile Phone" name="nomor">
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput3" class="pass-label form-label">Password</label>
+                <input type="password" class="pass-input form-control" id="exampleFormControlInput3"
+                    placeholder="Password" name="pass">
+                <button type="submit" class="masuk btn text-white" name="register">REGISTER</button>
+            </div>
+        </form>
+    </div>
+    <div class="container-2">
+        <img class="image-2" src="image/Sign up-amico.png">
+    </div>
+</body>
+
+</html>

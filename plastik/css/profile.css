@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+#container {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 530px;
+    padding: 15px;
+}
+
+.upload {
+  width: 130px;
+  position: relative;
+  top: 15px;
+  margin: auto;
+  left: 0px;
+}
+
+.upload img {
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+  /* border: 3px solid #f5f6fa; */
+  object-fit: cover;
+}
+
+.upload .round {
+  position: absolute;
+  bottom: -10px;
+  right: -5px;
+  background: #1c1f23;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.upload .round input[type="file"] {
+  position: absolute;
+  transform: scale(2);
+  opacity: 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  cursor: pointer;
+}
+
+.nama-label {
+    position: relative;
+    top: 45px;
+    font-size: 16px;
+    z-index: 9;
+    font-weight: 500;
+}
+
+.nama-input {
+    position: relative;
+    top: 45px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.username-label {
+    position: relative;
+    top: 45px;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 9;
+}
+
+.username-input {
+    position: relative;
+    top: 45px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+
+}
+
+.alamat-label {
+    position: relative;
+    top: 65px;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.alamat-input {
+    position: relative;
+    top: 65px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.nomor-label {
+    position: relative;
+    top: 65px;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.nomor-input {
+    position: relative;
+    top: 65px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.email-label {
+    position: relative;
+    top: 85px;
+    font-size: 16px;
+    z-index: 9;
+    font-weight: 500;
+}
+
+.email-input {
+    position: relative;
+    top: 85px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.pass-label {
+    position: relative;
+    top: 85px;
+    font-size: 16px;
+    z-index: 9;
+    font-weight: 500;
+}
+
+.pass-input {
+    position: relative;
+    top: 85px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.btn {
+    position: relative;
+    bottom: -115px;
+  
+}

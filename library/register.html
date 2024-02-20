@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="css/register.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-image: url(gambar/buku2.jpg);
+            background-size: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="logo" onclick="window.location.href='/'" class="logo">
+            Portfolio.
+        </h1>
+        <nav>
+            <ul>
+                <ul>
+                    <li><a href="index.html">Login & Register</a></li>
+                    <li><a href="dasbor-admin.html">Admin</a></li>
+                    <li><a href="dasbor-user.html">User</a></li>
+                    <li><a href="../index.html">Back to Portfolio</a></li>
+                </ul>
+            </ul>
+
+        </nav>
+    </header>
+    <div class="container">
+        <div class="card" id="kartu">
+            <div class="badan">
+                <h5 class="status">Create your account</h5>
+                <form action="" method="post">
+                    <div class="input-group mb-3">
+                        <label for="exampleFormControlInput1" class="e form-label">Email</label>
+                        <i class="icon fa-solid fa-envelope"></i><input type="email" id="e-mail" class="form-control"
+                            id="exampleFormControlInput1" placeholder="Type your email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="p form-label">Password</label>
+                        <i class="icon-2 fa-solid fa-lock"></i><input type="password" id="pw" class="form-control"
+                            id="exampleInputPassword1" placeholder="Type your password" name="password" required>
+                    </div>
+                    <div class="col-md-4">
+                        <i class="f fa-solid fa-user"></i><label for="validationDefault01"
+                            class="fi form-label">Name</label>
+                        <input type="text" id="first" class="form-control" id="validationDefault01" required
+                            placeholder="Name" name="nama">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="validationDefault02" class="la form-label">Username</label>
+                        <i class=" l fa-solid fa-user"></i><input type="text" id="last" class="form-control"
+                            id="validationDefault02" required placeholder="Username" name="username">
+                        <button id="btn" type="submit" class="btn btn-primary" name="signup">Signup <i
+                                class="fa-solid fa-right-to-bracket"></i></button>
+                    </div>
+
+                </form>
+                <div id="o" class="form-text">Already have an account?<a href="index.html"> Login now </a></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

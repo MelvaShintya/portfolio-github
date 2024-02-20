@@ -1,0 +1,192 @@
+/* Google Font Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 250px;
+    background: #0a0a0a;
+    padding: 6px 14px;
+    z-index: 99;
+}
+
+.sidebar .logo-details {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.sidebar .logo-details .logo_name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar .logo-details #btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 22px;
+    font-size: 23px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sidebar i {
+    color: #fff;
+    height: 60px;
+    min-width: 50px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.sidebar .nav-list {
+    margin-top: 20px;
+    height: 100%;
+}
+
+.sidebar li {
+    position: relative;
+    margin: 8px -30px 0;
+    list-style: none;
+}
+
+.sidebar li .tooltip {
+    position: absolute;
+    top: -20px;
+    left: calc(100% + 15px);
+    z-index: 3;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: 0s;
+}
+
+.sidebar li:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+    transition: all 0.4s ease;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.sidebar li a {
+    display: flex;
+    height: 100%;
+    width: 220px;
+    border-radius: 12px;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background: #0a0a0a;
+}
+
+.sidebar li a:hover {
+    background: #fff;
+}
+
+.sidebar li a .links_name {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+.sidebar.open li a .links_name {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar li a:hover .links_name,
+.sidebar li a:hover i {
+    transition: all 0.5s ease;
+    color: #11101d;
+}
+
+.sidebar li i {
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.navbar {
+    background-color: #f5f6fa;
+    width: 100%;
+    height: 70px;
+}
+
+.search {
+    position: relative;
+    left: 550px;
+    width: 1000px;
+    border-radius: 50px;
+    text-indent: 25px;
+}
+
+.bx-search {
+    z-index: 99;
+    width: 0;
+    top: 27px;
+    position: absolute;
+    left: 577px;
+}
+
+.profile-details {
+    position: absolute;
+    align-items: center;
+    height: 50px;
+    min-width: 190px;
+    padding: 0 15px 0 2px;
+    left: 7px;
+    top: 15px;
+    margin-top: 3px;
+}
+
+.profile-details img {
+    height: 45px;
+    width: 45px;
+    border-radius: 15px;
+    object-fit: cover;
+    /* border: 2px solid #f5f6fa; */
+}
+
+.profile-details .admin_name {
+    font-size: 15px;
+    color: #ffffff;
+    margin: 0 10px;
+    white-space: nowrap;
+    font-weight: 400;
+}
+/* 
+hr {
+    background-color: rgb(41, 41, 41);
+    width: 500px;
+    position: absolute;
+    left: -250px;
+    top: 835px;
+}
+
+.keluar {
+position: absolute;
+top: 550px;
+} */

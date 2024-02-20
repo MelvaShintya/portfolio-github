@@ -1,0 +1,174 @@
+.card {
+    top: 75px;
+    left: 450px;
+    width: 500px;
+    height: 530px;
+}
+
+#card {
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+
+}
+
+#card-2 {
+    position: absolute;
+    border: none;
+    top: 200px;
+    margin-left: 20px;
+    z-index: -1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.status {
+    z-index: 9;
+    position: absolute;
+    top: 55px;
+    font-weight: bold;
+    left: 155px;
+    font-size: 25px;
+}
+
+.image {
+    position: absolute;
+    margin-left: 115px;
+    top: 90px;
+}
+
+.status-1 {
+    position: absolute;
+    top: 240px;
+    font-weight: bold;
+    left: 530px;
+    font-size: 25px;
+
+}
+
+.status-2 {
+    position: absolute;
+    top: 275px;
+    left: 533px;
+    font-size: 13px;
+    color: #777;
+
+}
+
+.nama {
+    position: absolute;
+    top: -120px;
+    left: 530px;
+}
+
+#nama {
+    position: absolute;
+    width: 150px;
+    top: -90px;
+    left: 530px;
+    border-radius: 20px;
+}
+
+.user {
+    position: absolute;
+    top: -230px;
+    left: 710px;
+}
+
+#user {
+    position: absolute;
+    width: 150px;
+    top: -193px;
+    left: 710px;
+    border-radius: 20px;
+}
+
+.alamat {
+    position: absolute;
+    top: -245px;
+    left: 890px;
+}
+
+#alamat {
+    position: absolute;
+    width: 150px;
+    top: -209px;
+    left: 890px;
+    border-radius: 20px;
+}
+
+.email {
+    position: absolute;
+    top: -260px;
+    left: 530px;
+}
+
+#email {
+    position: absolute;
+    width: 150px;
+    top: -225px;
+    left: 530px;
+    border-radius: 20px;
+}
+
+.handphone {
+    position: absolute;
+    top: -185px;
+    left: 710px;
+}
+
+#handphone {
+    position: absolute;
+    width: 150px;
+    top: -155px;
+    left: 710px;
+    border-radius: 20px;
+}
+
+.pass {
+    position: absolute;
+    top: 410px;
+    left: 890px;
+}
+
+#pass {
+    position: absolute;
+    width: 150px;
+    top: 440px;
+    left: 890px;
+    border-radius: 20px;
+}
+
+.hak {
+    position: absolute;
+    top: -110px;
+    left: 530px;
+}
+
+#hak {
+    position: absolute;
+    width: 510px;
+    top: -80px;
+    left: 530px;
+    border-radius: 20px;
+}
+
+#sign {
+    position: absolute;
+    width: 350px;
+    top: 630px;
+    left: 620px;
+    color: white;
+    background-color: #0A2558;
+    border-radius: 30px;
+}
+
+#registerHelp {
+    position: absolute;
+    top: 670px;
+    left: 1050px;
+}

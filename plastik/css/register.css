@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    /* background-color: rgb(197, 75, 75); */
+    background-color: #1c1f23;
+    /* background-color: #d46f6f; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: -webkit-sticky;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    background-color: #fff;
+    transition: 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    transition: 0.8s ease;
+    color: var(--Color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+header nav {
+    transition: 0.8s ease;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav ul {
+    display: flex;
+    padding: 10px 20px;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 15px;
+}
+
+header nav ul li {
+    margin: auto;
+}
+
+header nav ul li a {
+    color: var(--SecondColor);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+}
+
+header nav ul a:hover {
+    color: var(--Color);
+    transition: color 0.3s ease;
+}
+
+.status {
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+    top: 205px;
+    left: 450px;
+    z-index: 9;
+}
+
+.peringatan {
+    position: absolute;
+    top: 245px;
+    left: 452px;
+    font-weight: 500;
+    font-size: 14px;
+    z-index: 99;
+    color: black;
+}
+
+.status-2 {
+    position: absolute;
+    font-size: 14px;
+    top: 700px;
+    left: 1150px;
+    font-weight: 500;
+    z-index: 9;
+    color: black;
+}
+
+.container {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    position: relative;
+    top: 150px;
+    right: 270px;
+}
+
+.bxs-id-card {
+    position: relative;
+    top: 200px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.nama-label {
+    position: relative;
+    top: 160px;
+    font-size: 16px;
+    z-index: 9;
+    font-weight: 500;
+    left: 50px;
+}
+
+.nama-input {
+    position: relative;
+    top: 160px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+    left: 50px;
+}
+
+.bxs-user {
+    position: relative;
+    top: 200px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.username-label {
+    position: relative;
+    top: 160px;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 9;
+    left: 50px;
+}
+
+.username-input {
+    position: relative;
+    top: 160px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+    left: 50px;
+}
+
+.bxl-gmail {
+    position: relative;
+    top: 210px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.email-label {
+    position: relative;
+    top: 180px;
+    left: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.email-input {
+    position: relative;
+    top: 180px;
+    left: 50px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.bxs-phone {
+    position: relative;
+    top: 220px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.bxs-building-house {
+    position: relative;
+    top: 210px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.nomor-label {
+    position: relative;
+    top: 180px;
+    font-weight: 500;
+    left: 50px;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.nomor-input {
+    position: relative;
+    top: 180px;
+    left: 50px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.bxs-lock-alt {
+    position: relative;
+    top: 220px;
+    left: 65px;
+    color: #777;
+    z-index: 99;
+}
+
+.pass-label {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    font-size: 16px;
+    z-index: 9;
+    font-weight: 500;
+}
+
+.pass-input {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    border-radius: 15px;
+    /* text-indent: 25px; */
+    z-index: 9;
+}
+
+.masuk {
+    position: absolute;
+    top: 480px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+    left: 60px;
+    height: 40px;
+    background-color: #1c1f23;
+    width: 575px;
+    border-radius: 15px;
+    z-index: 9;
+}
+
+.image-2 {
+    height: 490px;
+    width: 490px;
+    position: relative;
+    top: 50px;
+    left: 85px;
+}
+
+.container-2 {
+    background-color: white;
+    width: 590px;
+    height: 600px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    position: absolute;
+    top: 150px;
+    left: 965px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    .status {
+        position: absolute;
+        font-weight: bold;
+        font-size: 30px;
+        top: 135px;
+        left: 111px;
+        z-index: 9;
+    }
+
+    .peringatan {
+        position: absolute;
+        top: 175px;
+        left: 113px;
+        font-size: 14px;
+        z-index: 99;
+        color: black;
+    }
+
+    .status-2 {
+        position: absolute;
+        font-size: 14px;
+        top: 630px;
+        left: 820px;
+        z-index: 9;
+        color: black;
+    }
+
+    .container {
+        background-color: white;
+        width: 600px;
+        height: 600px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        position: relative;
+        top: 80px;
+        right: 290px;
+    }
+
+    .image-2 {
+        height: 490px;
+        width: 490px;
+        position: relative;
+        top: 50px;
+        left: 80px;
+    }
+
+    .container-2 {
+        background-color: white;
+        width: 590px;
+        height: 600px;
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        position: absolute;
+        top: 80px;
+        left: 645px;
+    }
+}

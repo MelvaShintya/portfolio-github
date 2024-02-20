@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+ * {
+        font-family: 'Poppins', sans-serif;
+    }
+
+#container {
+    position: relative;
+    left: 120px;
+    top: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    height: 730px;
+    padding: 15px;
+}
+
+.btn {
+position: absolute;
+left: 15px;
+top: 665px;
+}
+
+.garis-0 {
+position: relative;
+top: 0px;
+left: 100px;
+width: 1190px;
+}
+
+.garis {
+position: relative;
+top: 50px;
+left: 190px;
+width: 1100px;
+}
+
+
+.surat{
+    position: relative;
+    top: -30px;
+    font-weight: 500;
+    left: 0px;
+}
+
+.bahan {
+    position: relative;
+    top: 20px;
+    font-weight: 500;
+    left: 0px;
+}
+
+.bahan-label {
+    position: relative;
+    top: 70px;
+    left: -187px;
+}
+
+
+.bahan-1 {
+position: relative;
+top: 70px;
+
+
+}
+
+.bahan-2 {
+position: relative;
+top: 90px;
+}
+
+.bahan-3 {
+position: relative;
+top: 110px;
+}
+
+.bahan-4 {
+position: relative;
+top: 130px;
+}
+
+.add {
+position: absolute;
+left: 1265px;
+top: 665px;
+}

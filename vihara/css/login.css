@@ -1,0 +1,194 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: -webkit-sticky;
+    position: absolute;
+    top: 0;
+    z-index: 99999;
+    background-color: #fff;
+    transition: 0.8s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    width: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    transition: 0.8s ease;
+    color: var(--Color);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+header nav {
+    transition: 0.8s ease;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header nav ul {
+    display: flex;
+    padding: 10px 20px;
+    list-style-type: none;
+    gap: 30px;
+    font-size: 15px;
+}
+
+header nav ul li {
+    margin: auto;
+}
+
+header nav ul li a {
+    color: var(--SecondColor);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    position: relative;
+    font-size: 13px;
+}
+
+header nav ul a:hover {
+    color: var(--Color);
+    transition: color 0.3s ease;
+}
+
+.card {
+    top: 75px;
+    left: 450px;
+    width: 500px;
+    height: 530px;
+
+}
+
+#card {
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    top: 200px;
+    margin-left: 200px;
+
+}
+
+#card-2 {
+    position: absolute;
+    border: none;
+    top: 200px;
+    margin-left: 20px;
+    z-index: -1;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.status {
+    z-index: 9;
+    position: absolute;
+    top: 260px;
+    font-weight: bold;
+    left: 1055px;
+    font-size: 25px;
+
+}
+
+.image {
+    position: absolute;
+    margin-left: 50px;
+    top: 100px;
+}
+
+.status-1 {
+    position: absolute;
+    top: 260px;
+    font-weight: bold;
+    left: 530px;
+    font-size: 25px;
+
+}
+
+.status-2 {
+    position: absolute;
+    top: 295px;
+    left: 533px;
+    font-size: 13px;
+    color: #777;
+
+}
+
+.user {
+    position: absolute;
+    top: -200px;
+    left: 220px;
+}
+
+#user {
+    position: absolute;
+    width: 450px;
+    top: -170px;
+    left: 220px;
+    border-radius: 20px;
+}
+
+.email {
+    position: absolute;
+    top: -110px;
+    left: 220px;
+}
+
+#email {
+    position: absolute;
+    width: 450px;
+    top: -80px;
+    left: 220px;
+    border-radius: 20px;
+}
+
+.pass {
+    position: absolute;
+    top: 540px;
+    left: 530px;
+}
+
+#pass {
+    position: absolute;
+    width: 450px;
+    top: 570px;
+    left: 530px;
+    border-radius: 20px;
+}
+
+#sign {
+    position: absolute;
+    width: 350px;
+    top: 650px;
+    left: 570px;
+    color: white;
+    /* background-color: #F94A29; */
+    background-color: #0A2558;
+    border-radius: 30px;
+}
+
+#registerHelp {
+    position: absolute;
+    top: 670px;
+    left: 1050px;
+}
+
+#u {
+    position: absolute;
+    left: 225px;
+    top: -130px;
+}
+
+#e {
+    position: absolute;
+    left: 225px;
+    top: -40px;
+}
+
+#p {
+    position: absolute;
+    left: 536px;
+    top: 610px;
+}

@@ -1,0 +1,30 @@
+#container {
+  overflow: scroll;
+  position: absolute;
+  top: 100px;
+  left: 390px;
+  width: 1000px;
+  height: 500px;
+  padding: 10px;
+}
+
+.table {
+  position: relative;
+  top: 15px;
+  text-align: center;
+}
+
+#btn {
+  position: absolute;
+  right: 25px;
+  bottom: 30px;
+  border-radius: 20px;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+.fa-plus {
+  color: white;
+}

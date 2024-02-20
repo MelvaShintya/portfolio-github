@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cetak</title>
+</head>
+
+<body>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            font-size: 11px;
+            text-align: center;
+        }
+
+        h4 {
+            left: 115px;
+            font-size: 15px;
+        }
+    </style>
+    <h2 style="text-align: center;">Surat Jalan</h2>
+    <h4>Tujuan</h4>
+    <h4>PT. Surya Renggo</h4>
+    <h4><?php echo $persetujuan['tujuan'] ?></h4>
+    <h5 style="position: absolute; top: 80px; right: 20px;">Tanggal <br>29 Febuari 2024</h5>
+    <h5 style="position: absolute; top: 125px; right: 53px;">No. SJ: <br>1/SJ</h5>
+    <br>
+    <table class="table table-bordered table-hover table-striped table-datatable">
+        <thead>
+            <tr>
+                <th width="1%" scope="col">No</th>
+                <th width="15%" scope="col">Tanggal</th>
+                <th width="15%" scope="col">Jenis Mobil</th>
+                <th width="15%" scope="col">Tujuan</th>
+                <th width="15%" scope="col">Plat Mobil</th>
+                <th width="15%" scope="col">Pengemudi</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            ?>
+            <tr>
+                <td>1></td>
+                <td>29 Febuari 2024</td>
+                <td>BMW</td>
+                <td>Bandung</td>
+                <td>4N1R</td>
+                <td>Bagas</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <h4>Tanda Tangan <br><br><br><br><br>Sopir</h4>
+    <h4 style="position: absolute; top: 570px; left: 600px;">Tanda Tangan <br><br><br><br><br>Admin</h4>
+    <script type="text/javascript">
+        window.print();
+    </script>
+</body>
+
+</html>

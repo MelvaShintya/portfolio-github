@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --secondaryColor: #28a852;
+    --whiteFontColor: #fff;
+    --fourthColor: #FAF8ED;
+    --orangseSecondaryColor: #F9B572;
+    --blackFontColor: #000000;
+    --BFontColor: #1b1b1b;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--secondaryColor);
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+.myForm {
+    text-align: center;
+}
+
+.myForm h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-wrapper {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 12px;
+    padding-left: 30px;
+    border: 1px solid var(--secondaryColor);
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    /* Menambahkan transisi untuk perubahan warna border */
+}
+
+.input-wrapper input:focus {
+    border-color: var(--secondaryColor);
+    /* Mengubah warna border saat input aktif/fokus */
+}
+
+.input-wrapper i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: var(--secondaryColor);
+    transition: color 0.3s ease;
+    /* Menambahkan transisi untuk perubahan warna ikon */
+}
+
+.input-wrapper input:focus+i,
+.input-wrapper input.focused+i {
+    color: var(--secondaryColor);
+}
+
+.input-wrapper input,
+.input-wrapper input:focus+i {
+    outline: none;
+    /* Menghilangkan outline saat input aktif/fokus */
+}
+
+.input-wrapper input::placeholder {
+    color: var(--secondaryColor);
+    transition: color 0.3s ease;
+    /* Menambahkan transisi untuk perubahan warna placeholder */
+}
+
+.input-wrapper input:focus::placeholder {
+    color: var(--secondaryColor);
+    /* Mengubah warna placeholder saat input aktif/fokus */
+}
+
+.btn-style-2 {
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-style-2:hover {
+    background-color: var(--orangseSecondaryColor);
+}

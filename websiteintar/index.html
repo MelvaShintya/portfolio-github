@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="image/intar.png">
+    <title>INTAR</title>
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="wrapper-bar">
+        <img src="image/intar.png" class="intar">
+        <div class="wrapper-nav">
+            <div class="top-bar">
+                <div class="top-bar-content">
+                    <div class="top-bar-links">
+                        <a href="#">Akademi</a>
+                        <a href="#">Kerjasama</a>
+                        <a href="#">Penelitian dan Pengabdian Masyarakat</a>
+                        <a href="#">Penerimaan Mahasiswa Baru</a>
+                        <a href="#">Jurnal</a>
+                    </div>
+                </div>
+            </div>
+            <header>
+                <nav>
+                    <ul>
+                        <li class="dropdown">
+                            <a href="#profil" class="active">Profil <i class="uil uil-angle-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Sejarah, Visi dan Misi</a>
+                                <a href="#">Struktur Organisasi</a>
+                            </div>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#prodi">Program Studi <i class="uil uil-angle-down"></i></a>
+                            <div class="dropdown-content">
+                                <a href="#">Keperawatan</a>
+                                <a href="#">Profesi Ners</a>
+                                <a href="#">Peminatan AI</a>
+                                <a href="#">Peminatan Data Science</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#prodi">Berita</a>
+                        </li>
+                        <li><a href="sign.php" class="m">Mahasiswa</a></li>
+                        <li><a href="#kontak">Hubungi Kami</a></li>
+                        <li class="search-icon"><i class='uil uil-search-alt'></i>
+                            <form action="/semua-berita">
+                                <input type="text" name="search">
+                            </form>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <script>
+                    const searchInput = document.querySelector('header nav ul li.search-icon input[type="text"]');
+                    const icon = document.querySelector('.search-icon i');
+
+                    searchInput.addEventListener('focus', () => {
+                        icon.style.color = 'var(--orangseSecondaryColor)';
+                    });
+
+                    searchInput.addEventListener('blur', () => {
+                        icon.style.color = 'var(--secondaryColor)';
+                    });
+                </script>
+            </header>
+        </div>
+    </div>
+    <section class="carousel">
+        <div class="carousel-wrapper">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="image/unsplash1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/unsplash2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="image/unsplash3.jpg" alt="Third slide">
+                </div>
+            </div>
+            <button class="carousel-control prev"><i class="uil uil-angle-left-b"></i></button>
+            <button class="carousel-control next"><i class="uil uil-angle-right-b"></i></button>
+        </div>
+    </section>
+
+    <section id="utama" class="utama">
+        <div class="welcome-container">
+            <div class="welcome-text">
+                <h3>Selamat datang di Institut Tarumanagara!</h3>
+                <h1>Gali Potensi Diri Anda di Institut Tarumanagara</h1>
+                <p>
+                    Institute Tarumanegara, terlahir dari kolaborasi antara STIMIK Dharma Putra dan Universitas
+                    Tarumanegara. Sebagai sebuah entitas pendidikan yang menggabungkan keunggulan teknologi dari STIMIK
+                    Dharma Putra dengan kebijaksanaan akademik dari Universitas Tarumanegara, Institute Tarumanegara
+                    menjadi
+                    titik temu
+                    antara inovasi teknologi dan kekayaan ilmu pengetahuan yang bervariasi.
+
+                    Di Institute Tarumanegara, Anda akan menemukan panggung belajar yang tidak hanya memenuhi kebutuhan
+                    kurikulum, tetapi
+                    juga menjadi wadah yang mendorong eksplorasi dan pengembangan diri secara holistik. Melalui
+                    integrasi
+                    teknologi modern dan beragam disiplin ilmu, kami tidak hanya menawarkan pelajaran di ruang kelas,
+                    tetapi
+                    juga pengalaman yang melampaui batas.
+
+                    Situs web kami adalah pintu gerbang menuju pengalaman pendidikan yang menginspirasi. Jelajahi lebih
+                    dalam! Kunjungi situs kami untuk memahami betapa Institute Tarumanegara mempersiapkan Anda untuk
+                    masa
+                    depan yang dinamis.
+                </p>
+
+                <a href="#">
+                    <p class="float-end" style="color:#28a852;">Jelajahi Lebih
+                        Dalam <i class="uil uil-angle-right-b"></i>
+                    </p>
+                </a>
+            </div>
+            <div class="utama-img-wrapper">
+                <img src="image/sipaling.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="berita" class="berita">
+        <div class="berita-text">
+            <h2>Temukan Gebrakan Terbaru di Institut Tarumanagara: Selalu Terkini!</h2>
+        </div>
+        <div class="container">
+            <div class="card mb-5" style="border:none;">
+                <a href="#" style="text-decoration: none;"><img src="image/7.jpg" class="card-img-top"
+                        style="aspect-ratio: 16/9; height:350px; object-fit: cover; border-radius: 0;"></a>
+                <div class="card-body">
+                    <a href="#" style="text-decoration: none; color:black;">
+                        <h5 class="card-title">Kesehatan</h5>
+                        <p class="card-text"><small class="text-body-secondary">Oleh Admin 1 jam yang lalu</small></p>
+                        <p class="card-text">Deskripsi singkat berita utama.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 col-md-12">
+                <div class="col-md-3 mb-5">
+                    <div class="card" style="border:none;">
+                        <a href="#" style="text-decoration: none;">
+                            <img src="image/8.jpg" class="card-img-top"
+                                style="aspect-ratio: 4/3; object-fit: cover; border-radius: 0;"></a>
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color:black;">
+                                <h5 class="card-title">Tari</h5>
+                                <p class="card-text"><small class="text-body-secondary">Oleh Admin 2 jam yang
+                                        lalu</small></p>
+                                <p class="card-text">Deskripsi singkat berita kecil 1.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card" style="border:none;">
+                        <a href="#" style="text-decoration: none;">
+                            <img src="image/9.jpg" class="card-img-top"
+                                style="aspect-ratio: 4/3; object-fit: cover; border-radius: 0;"></a>
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color:black;">
+                                <h5 class="card-title">Speak Up</h5>
+                                <p class="card-text"><small class="text-body-secondary">Oleh Admin 3 jam yang
+                                        lalu</small></p>
+                                <p class="card-text">Deskripsi singkat berita kecil 2.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card" style="border:none;">
+                        <a href="#" style="text-decoration: none;">
+                            <img src="image/7.jpg" class="card-img-top"
+                                style="aspect-ratio: 4/3; object-fit: cover; border-radius: 0;"></a>
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color:black;">
+                                <h5 class="card-title">Judul Berita Kecil 2</h5>
+                                <p class="card-text"><small class="text-body-secondary">Oleh Admin 3 jam yang
+                                        lalu</small></p>
+                                <p class="card-text">Deskripsi singkat berita kecil 2.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <div class="card" style="border:none;">
+                        <a href="#" style="text-decoration: none;">
+                            <img src="image/9.jpg" class="card-img-top"
+                                style="aspect-ratio: 4/3; object-fit: cover; border-radius: 0;"></a>
+                        <div class="card-body">
+                            <a href="#" style="text-decoration: none; color:black;">
+                                <h5 class="card-title">Judul Berita Kecil 2</h5>
+                                <p class="card-text"><small class="text-body-secondary">Oleh Admin 3 jam yang
+                                        lalu</small></p>
+                                <p class="card-text">Deskripsi singkat berita kecil 2.</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="button" id="button" class="btn btn-success rounded-pill d-block mx-auto">
+            <a href="/semua-berita/" class="text-white text-decoration-none">Rahasia Terkini, Kebanyakan Ada Di Sini
+                <i class="uil uil-arrow-down"></i></a>
+        </button>
+    </section>
+
+    <section id="sejarah" class="sejarah-section">
+        <div class="sejarah-container">
+            <div class="sejarah-text-wrapper">
+                <h1>Sejarah Institut Tarumanagara</h1>
+                <p>Sejarah INTAR bermula dari jejak langkah yang membangun sejarah gemilang UNTAR dan STIMIK Dharma
+                    Putra. Universitas Tarumanagara (UNTAR), dengan warisan keunggulan akademis dan semangat
+                    inovatifnya, bersama dengan STIMIK Dharma Putra yang telah membuktikan ketangguhan dalam dunia
+                    teknologi informatika, memulai perjalanan mereka masing-masing. Namun, titik balik terjadi saat
+                    kolaborasi menjadi pilihan, menggabungkan kekayaan intelektual, keahlian, dan semangat dari
+                    keduanya. Inilah titik awal dari INTAR (Institute Tarumanagara), di mana sinergi UNTAR dan STIMIK
+                    Dharma Putra menciptakan suatu entitas pendidikan yang menggabungkan keunggulan akademis
+                    multidisiplin dan kecanggihan teknologi informatika untuk membuka pintu menuju masa depan pendidikan
+                    yang lebih baik.</p>
+            </div>
+            <div class="profil-img-wrapper">
+                <div class="profil-img">
+                    <img src="image/prof-1.png" alt="Prof. Dr. H. Ahmad Sudiro">
+                    <div class="nama-pendiri">Prof. Dr. H. Ahmad Sudiro</div>
+                    <div class="jabatan-pendiri">Ketua Tim Transisi Pendirian Institut Tarumanagara</div>
+                </div>
+                <div class="profil-img">
+                    <img src="image/prof-2.png" alt="Prof. Dr. Ariawan Gunadi">
+                    <div class="nama-pendiri">Prof. Dr. Ariawan Gunadi</div>
+                    <div class="jabatan-pendiri">Ketua Yayasan Tarumanagara</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="visimisi" class="visimisi">
+        <div class="div-box"></div>
+        <div class="visimisi-text">
+            <h1>Visi dan Misi Institut Tarumanagara</h1>
+            <div class="section-content">
+                <div class="visi-misi-item">
+                    <p class="heading">Visi</p>
+                    <p class="content">
+                        Menjadi pusat pendidikan unggulan yang merangkul keberagaman ilmu pengetahuan, menggabungkan
+                        warisan
+                        keunggulan akademis dari UNTAR dengan kecanggihan teknologi informatika dari STIMIK Dharma
+                        Putra. Kami
+                        bertujuan untuk menghasilkan inovator, pemimpin, dan pemikir yang berani menghadapi tantangan
+                        global.
+                    </p>
+                </div>
+                <div class="visi-misi-item">
+                    <p class="heading">Misi</p>
+                    <p class="content">
+                        Institut Tarumanagara bertekad untuk menggabungkan keunggulan multidisiplin dari UNTAR dengan
+                        inovasi
+                        teknologi dari STIMIK Dharma Putra, menciptakan kurikulum dan pengalaman belajar yang unggul,
+                        sambil
+                        mendorong riset dan pengembangan teknologi untuk menciptakan terobosan di berbagai bidang. Kami
+                        mempersembahkan lingkungan yang memberdayakan setiap individu, mendukung mereka mencapai potensi
+                        maksimal melalui program pengembangan diri yang holistik. Kami juga berkomitmen dalam membangun
+                        kemitraan global yang strategis, menghasilkan wawasan global dan mempersiapkan mahasiswa untuk
+                        lingkungan kerja yang beragam. Dengan fokus pada pembelajaran berkelanjutan, kami mendukung
+                        lingkungan
+                        inklusif, progresif, dan adaptif, yang terus mendorong pertumbuhan bagi mahasiswa dan tenaga
+                        pengajar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="program-studi" class="program-studi">
+        <div class="container">
+            <h2>Program Studi di Institut Tarumanagara</h2>
+            <div class="program-list">
+                <div class="program-item">
+                    <div class="img-container">
+                        <img src="image/unsplash5.jpg">
+                        <div class="overlay"></div>
+                        <h3>Keperawatan</h3>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <div class="img-container">
+                        <img src="image/unsplash7.jpg">
+                        <div class="overlay"></div>
+                        <h3>Profesi Ners</h3>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <div class="img-container">
+                        <img src="image/unsplash5.jpg">
+                        <div class="overlay"></div>
+                        <h3>Peminatan AI</h3>
+                    </div>
+                </div>
+                <div class="program-item">
+                    <div class="img-container">
+                        <img src="image/unsplash7.jpg">
+                        <div class="overlay"></div>
+                        <h3>Peminatan Data Science</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1706668120">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h1>Contact Us</h1>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="image/phone-icon.png" alt="Phone Icon">
+                    <p>+62 888 - 7777 - 8888</p>
+                </div>
+                <div class="contact-item">
+                    <img src="image/email-icon.png" alt="Email Icon">
+                    <p>intar@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <img src="image/location-icon.png" alt="Location Icon">
+                    <p>Jakarta Selatan, Cilandak</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <img class="foo" src="image/intarw.png" alt="">
+        <div class="rektor">
+            <p style="text-align: left;">
+                <b>Rektorat</b>
+                <br>
+                Jl. TB Simatupang &, Jl. Raya Cilandak KKO No.1, RT.1/RW.5, Ragunan, <br> Ps. Minggu, Kota Jakarta
+                Selatan,
+                Daerah Khusus Ibukota Jakarta 12550
+            </p>
+        </div>
+        <div class="social-media">
+            <p style="text-align: left; font-weight:600;">Sosial Media Kami</p>
+            <div class="ikut" style="text-align: left;">
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+                <a href="#"><i class="uil uil-instagram"></i></a>
+                <a href="#"><i class="uil uil-twitter-alt"></i></a>
+                <a href="#"><i class="uil uil-youtube"></i></a>
+            </div>
+        </div>
+    
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/carousel.js"></script>
+
+</body>
+
+</html>
